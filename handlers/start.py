@@ -7,34 +7,34 @@ from helpers.filters import command, other_filters, other_filters2
 
 
 ## ~ Simple Config ~ ##
-FRIEND_BOT = "MusicsNexa_bot"
-USER_ACCNAME = os.getenv("USER_ACCNAME", "NexaMusicAssistant")
+FRIEND_BOT = "Yeagerist Music Streamer Assistant"
+USER_ACCNAME = os.getenv("USER_ACCNAME", "Achubiju6c")
 
 
 
-@Client.on_message(command(["start", "start@TheNexasMusic_bot"]))
+@Client.on_message(command(["start", "start@YeageristMusic_bot"]))
 async def start(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
 
-I'm The Nexa Music Bot. Friend of **@{FRIEND_BOT}** 😏️.
+I'm TheYeagerist Music Streamer Bot. Friend of **@{FRIEND_BOT}** 😏️.
 
 I can play Music In Telegram Groups Via Voice Chat! 😌️.
 
-Made with ❤️ <b>@NexaBotsUpdates</b>""",
+Made with ❤️ <b>@Animemusicarchive6</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🤨️ How To Use Me 🤨️", url="https://telegra.ph/How-To-Use-Music-Nexa-Bot-03-16"
+                        "🤨️ How To Use Me 🤨️", url="https://telegra.ph/How-To-Use-Yeagerist-Music-Streamer-Bot-04-05"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                        "🔰️ My Update Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ]
             ]
@@ -46,8 +46,7 @@ Made with ❤️ <b>@NexaBotsUpdates</b>""",
 async def help(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
-
-Bruh! Do you need Help! 🤔️ yea yea I know it! 🙃️
+Hi ! Do you need Help! 🤔️ yea yea I know it! 🙃️
 
 How To Use Me? 🧐️
 
@@ -62,12 +61,12 @@ Made with ❤️ <b>@NexaBotsUpdates</b>""",
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                        "🔰️ My Update Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ]
             ]
@@ -75,7 +74,7 @@ Made with ❤️ <b>@NexaBotsUpdates</b>""",
     )
 
     
-@Client.on_message(command(["cmdlist", "cmdlist@TheNexasMusic_bot"]))
+@Client.on_message(command(["cmdlist", "cmdlist@YeageristMusic_bot"]))
 async def cmdlist(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -101,12 +100,12 @@ Here is the list of available commands! 😃️
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                    "🔰️ My Update Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                    "🔰️ My Update Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     )
                 ]
             ]
@@ -133,12 +132,12 @@ Respect To Code Owners! Not To Me!""",
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                        "🔰️ My Update Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ]
             ]
@@ -146,7 +145,7 @@ Respect To Code Owners! Not To Me!""",
     )   
 
 
-@Client.on_message(command(["vc", "vc@TheNexasMusic_bot"]) & other_filters)
+@Client.on_message(command(["vc", "vc@YeageristMusic_bot"]) & other_filters)
 async def vc(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -163,12 +162,12 @@ Enjoy!😌️❤️""",
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                        "🔰️ My Update Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ]
             ]
@@ -176,7 +175,7 @@ Enjoy!😌️❤️""",
     )
 
     
-@Client.on_message(command(["search", "search@TheNexasMusic_bot"]))
+@Client.on_message(command(["search", "search@YeageristMusic_bot"]))
 async def search(_, message: Message):
     await message.reply_text(
         "💁🏻‍♂️ Do you want to search for a YouTube video?",
