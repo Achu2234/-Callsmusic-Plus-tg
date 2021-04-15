@@ -7,7 +7,7 @@ from helpers.filters import command, other_filters, other_filters2
 
 
 ## ~ Simple Config ~ ##
-FRIEND_BOT = "Yeagerist Music Streamer Assistant"
+FRIEND_BOT = "Achubiju6c"
 USER_ACCNAME = os.getenv("USER_ACCNAME", "Achubiju6c")
 
 
@@ -56,7 +56,7 @@ How To Use Me? 🧐️
  
  Enjoy! 😌️
 
-Made with ❤️ <b>@NexaBotsUpdates</b>""",
+Made with ❤️ <b>@Animemusicarchive6</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
